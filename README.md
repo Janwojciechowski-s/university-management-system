@@ -35,7 +35,9 @@ Console application for managing student data, grades, and subjects.
 **Prerequisites:**
 ```bash
 sudo apt update && sudo apt install -y build-essential cmake
-
+```
+**Build & Run:**
+```bash
 # Configure and build
 cmake -B build
 cmake --build build
