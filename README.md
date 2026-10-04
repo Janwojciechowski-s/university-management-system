@@ -32,6 +32,14 @@ Console application for managing student data, grades, and subjects.
 
 ## How to Run
 
-1. Open the .sln file in Visual Studio 2022.
+**Prerequisites:**
+```bash
+sudo apt update && sudo apt install -y build-essential cmake
 
-2. Build and run the project (F5).
+# Configure and build
+cmake -B build
+cmake --build build
+
+# Run executable
+./build/UniversityManagementSystem
+```
